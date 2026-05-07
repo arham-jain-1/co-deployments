@@ -55,7 +55,8 @@ kubectl kustomize "github.com/kubernetes-sigs/container-object-storage-interface
 **Note:** Replace `<namespace>` with the installation Namespace.
 
 **Note:** The SIG Storage resources can be deployed in any "namespace", and the HPE COSI Driver can also be deployed in any namespace. Refer to the [known limitations](https://scod.hpedev.io/cosi_driver/index.html#known_limitations) for more details.
-3. Installing the chart.
+
+2. Installing the chart.
 
 To install the chart with the name "my-hpe-cosi-driver", follow this example.
 
